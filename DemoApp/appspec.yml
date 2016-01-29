@@ -1,9 +1,9 @@
 version: 0.0
 os: windows
 files:
-  - source: \index.html
+  - source: DemoApp\index.html
     destination: C:\inetpub\wwwroot
 hooks:
   BeforeInstall:
-    - location: \DemoApp\before-install.bat
+    - location: DemoApp\before-install.bat
       timeout: 900
